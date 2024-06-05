@@ -7,7 +7,7 @@ export default function Navbar() {
     <>
       <section>
         <nav
-          class="navbar navbar-expand-lg"
+          class="navbar navbar-expand-lg shadow-sm"
           style={{ backgroundColor: "#e3f2fd" }}
         >
           <div class="container-fluid">
