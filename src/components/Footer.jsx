@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <>
-      <section>
-        <footer class="bg-dark text-center text-white">Created by Awann</footer>
+      <section className="footer fixed-bottom">
+        <footer className="bg-dark text-center text-white">Created by Awann</footer>
       </section>
     </>
   );
