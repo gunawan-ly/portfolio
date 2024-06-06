@@ -1,4 +1,4 @@
-export default function Jumbotron() {
+export default function Jumbotron(props) {
   return (
     <>
       <section>
@@ -11,10 +11,9 @@ export default function Jumbotron() {
             />
 
             <h1 class="display-4">Awanophile</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores,
-              dolores?
-            </p>
+            <p class="lead">{props.title}</p>
+            <h1 className="display-4">About Me</h1>
+            <p className="lead">{props.homeSect}</p>
           </div>
         </div>
       </section>
