@@ -12,9 +12,9 @@ export default function Navbar() {
           style={{ backgroundColor: "#e3f2fd" }}
         >
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <Link to={"/portfolio/"} class="navbar-brand">
               Awanophile
-            </a>
+            </Link>
             <button
               class="navbar-toggler"
               type="button"
@@ -29,9 +29,13 @@ export default function Navbar() {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <Link
+                    to={"/portfolio/"}
+                    class="nav-link active"
+                    aria-current="page"
+                  >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
                   <Link to={"/portfolio/features"} class="nav-link">
